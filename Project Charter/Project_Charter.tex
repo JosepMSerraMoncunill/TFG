@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{lscape}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhead[L]{Josep Maria Serra Moncunill}
+\fancyhead[R]{Project Charter}
+\fancyfoot[C]{\thepage}
+
+%---Begining of the Project Charter---
+\begin{document}
+
+\begin{titlepage}
+\vspace*{50pt}
+\begin{center}\includegraphics[scale=0.3]{./Media/logo_ESEIAAT.jpg}\end{center}
+\vspace{25pt}
+\begin{LARGE}\begin{center}\textbf{Study for the computational resolution of conservation equations of mass, momentum and energy. Possible application to different aeronautical and industrial engineering problems: Case 5D}\end{center}\end{LARGE}
+\vspace{15pt}
+\begin{LARGE}\begin{center}Project Charter\end{center}\end{LARGE}
+\vspace{40pt}
+\begin{center}{\large Author: Josep Maria Serra Moncunill}\end{center}
+\vspace{25pt}
+\begin{center}{\large Director: Asensio Oliva Llena}\end{center}
+\begin{center}{\large Co-Director: Carlos David Pérez Segarra}\end{center}
+\vspace{40pt}
+\begin{center}{\normalsize Delivery Date: 10th June 2017}\end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+%--Section 1: Aim--
+\input{./Sections/Aim/Aim}
+
+%--Section 2: Scope--
+\input{./Sections/Scope/Scope}
+
+%--Section 3:--Requirements--
+\input{./Sections/Requirements/Requirements}
+
+%--Section 4: Background--
+\input{./Sections/Background/Background}
+
+%--Section 5: Calendar
+\input{./Sections/Calendar/Calendar}
+
+\section{Bibliography}
+\bibliographystyle{unsrt}
+\bibliography{./Biblography}
+
+\end{document}
