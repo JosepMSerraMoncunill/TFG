@@ -84,7 +84,7 @@ int main(){
 	cout<<"Done"<<endl;
 	
 	//Time step
-	double TimeEnd=1000;
+	double TimeEnd=50000;
 	double dt;
 	dt=TimeStep(dx, dy, density, difusivity, vRef);
 	
